@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% load static %}
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <!--font for the top-left soft study page title-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'first_app/style.css' %}">
+    <title>Soft Study</title>
+</head>
+
+<body>
+    <header id="container">
+        <div id="page-logo">
+            <!--can add a link to the page title if wanted-->
+            <a>Soft Study</a>
+        </div>
+        <nav>
+            <ul>
+                <!--location for links to music and timers-->
+                <a>Music</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="room">
+            <div id="timer-content" class="oval-rectangle">
+                <h2>Timer</h2>
+            </div>
+            <div id="room-content">
+                <!--This is where we will put the Three.js-->
+                <h1><img src = "{% static 'first_app/room1.png' %}" alt = "description of photo"></h1>
+                <!-- <p></p>
+                <a href=""></a> -->
+            </div>
+        </section>
+        <!--below the Three.js for arrows to rotate it?-->
+        <section id="">
+            <!--<h2></h2>
+            <ul id="destinations">
+                <img src="" alt="description of photo">
+                <p>words<strong>words</strong></p>
+                </li>
+                <li class="destination">
+                    <img src=".jpg" alt="photo description">
+                    <p>words<strong>words</strong></p>
+                </li>
+                <li class="destination">
+                    <img src=".jpg" alt="what is this image?">
+                    <p>words<strong></strong></p> 
+                </li>
+            </ul> -->
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
+
+<!--
+ 
+} -->
